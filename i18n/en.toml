@@ -18,7 +18,7 @@ other = "Categories"
 other = "at"
 
 [resume]
-other = "My resume"
+other = "My Resume"
 
 [navigation]
 other = "Navigation"
@@ -65,20 +65,29 @@ other = "out of"
 [publications]
 other = "Publications"
 
+[projects]
+other = "Projects"
+
+[coursework]
+other = "Coursework"
+
 [taken_courses]
-other = "Taken Courses"
+other = "Courses"
 
 [course_name]
 other = "Course Name"
 
 [total_credit]
-other = "Total Credit"
+other = "Course Name"
 
 [obtained_credit]
-other = "Obtained Credit"
+other = ""
 
 [extracurricular_activities]
 other = "Extracurricular Activities"
+
+[awards]
+other = "Awards"
 
 [show_more]
 other = "Show More"

@@ -45,11 +45,35 @@
                             {{ if .grade }}
                                 <h6><span class="text-muted">{{ .grade.scale }}: </span><span>{{ .grade.achieved }}</span> <span>{{ .grade.outOf }}</span></h6>
                             {{ end }}
+                            {{ if .introdesc }}
+                            <div class="introdesc">
+                                <h6 class="text-muted">{{ i18n "introdesc"}}</h6>
+                                <ul>
+                                {{ range .introdesc }}
+                                    <li>{{ . }}</li>
+                                {{ end }}
+                                </ul>
+                            </div>
+                            {{ end }}
                             {{ if .publications }}
                                 <div class="publications">
                                     <h6 class="text-muted">{{ i18n "publications"}}</h6>
                                     <ul>
                                         {{ range .publications }}
+                                            {{ if .url }}
+                                                <li><a href="{{ .url }}" title="{{ .title }}" target="_blank" rel="noopener">{{ .title }}</a></li>
+                                            {{ else }}
+                                                <li>{{ .title }}</li>
+                                            {{ end }}
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                            {{ end }}
+                            {{ if .talks }}
+                                <div class="talks">
+                                    <h6 class="text-muted">{{ i18n "talks"}}</h6>
+                                    <ul>
+                                        {{ range .talks }}
                                             {{ if .url }}
                                                 <li><a href="{{ .url }}" title="{{ .title }}" target="_blank" rel="noopener">{{ .title }}</a></li>
                                             {{ else }}

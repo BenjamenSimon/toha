@@ -43,12 +43,15 @@
 }
 
 .home img {
-  width: 148px;
-  height: 148px;
+  width: 200px; 
+  height: 200px;
   background-color: #e7e7ef;
   padding: 5px;
   margin-bottom: 10px;
 }
+/*
+ Also change sizes of authorImage in home.html
+*/
 
 .home .greeting, .home .greeting-subtitle {
   color: #f9fafc;

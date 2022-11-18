@@ -65,6 +65,12 @@ other = "out of"
 [publications]
 other = "Publications"
 
+[introdesc]
+other = "Description"
+
+[talks]
+other = "Talks"
+
 [projects]
 other = "Projects"
 

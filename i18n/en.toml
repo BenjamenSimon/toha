@@ -3,7 +3,10 @@
 other = "Home"
 
 [posts]
-other = "Posts"
+other = "Portfolio"
+
+[portfolio]
+other = "Portfolio"
 
 [toc_heading]
 other = "Table of Contents"
